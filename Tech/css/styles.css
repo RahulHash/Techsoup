@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	background-color:#D5D8DC ;
+}
+
+nav li{
+	display: inline;
+	text-decoration: none;
+	margin: 1em;
+	text-align: right;
+	color: #FFF;
+}
+nav a{
+	text-decoration: none;
+	color: #FFF;
+}
+nav a:hover,
+nav a:focus {
+	color: #ddd;
+}
+
+
+.button {
+	display: inline-block;
+	font-size: 1.15rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .5em 1.75em;
+	color: #28B463;
+	margin-top: 3em;
+}
+
+.container {
+	width: 95%;
+	max-width: 70em;
+	margin: 0 auto;
+}
+.news {
+	background-image: url(../images/hero-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 10em 0em 0em 0em;
+	color: #FFF;
+	height: 100vh;
+	border: 5px solid redorange;
+	overflow: hidden;
+}
+
+/* header */
+
+header{
+	position: absolute;
+	/* width: 100vw; */
+	left: 0;
+}
+
+/* header nav{
+	float: right;
+	display: stretch;
+	padding-left: 1000px;
+}
+
+header h1{
+	margin-left: 0.5em;
+	float: left;
+	color: #28B463  ;
+	justify-self: flex-end;
+} */
+
+header h1{
+	position: absolute;
+	color: #28B463  ;
+	left: 10px;
+	margin-top: 0.5em;
+	font-weight: 600;
+}
+
+header nav{
+	margin: 2em auto 0px 1135px;
+}
+
+.middle{
+	margin: 1em;
+	display: flex;	
+	background: url(../images/back.jpg);
+	/* background-size: cover; */
+	background-position: center;
+	background-color: #D5D8DC;
+	border-radius:15px ;
+}
+/* Stories */
+
+#latest-news{
+	background-color:#D5D8DC;
+	/* background-size: auto; */
+	margin: 1em 0em;
+}
+
+.card{
+	
+	flex: 1;
+	box-sizing: content;
+	height: 500px;
+	color: #D5D8DC;
+	border: 1px solid #D5D8DC;
+	margin: 3em 3em ;
+	background-color: #D5D8DC;
+	overflow: hidden;
+	border-radius: 10%;
+}
+
+
+.card figure{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 2em;
+}
+
+.card>a{
+	text-decoration: none;
+	background-color: #D5D8DC;
+	text-shadow: 0 0 1px gray;
+	color: black;
+}
+
+.card:hover, .card:focus{
+	color: #ddd;
+}
+/* 
+.card-left{
+	background-image: url(../images/portfolio-01.jpg);
+	background-size: 20em;
+	background-repeat: no-repeat;
+	background-position: top;
+} */
+
+
+.card figure img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10%;
+}
+
+.card figure p{
+	margin-top: 2em;
+	text-align: justify;
+}
+
+.car-img{
+	width:  1366px;
+	height: 768px;
+	border-radius: 15px;
+}
+
+.carousel-item {
+	padding: 2% 5%;
+}
+
+#myCarousel {
+	background-color: #D5D8DC;
+}
+
+.carousel-indicators{
+	bottom: 1.7em;
+}
+
+h3{
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+footer{
+	background: url(../images/foot.jpg);
+	height: 300px;
+	display: flex;
+	padding-top: 2em ;
+}
+
+footer div {
+	flex: 1;
+}
+.foot1{
+	padding: 0em 5em;
+}
+
+footer li{
+	margin: 2em;
+	color: greenyellow;
+	list-style: none;
+	font-size: 1em;
+	margin-left: 0;
+}
+
+footer ul{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+footer a{
+	color: greenyellow;
+}
+
+icon{
+	padding-right: 1em;
+}
+a{
+	text-decoration: none;
+}
+.news a:hover, #owners a:hover {
+	text-decoration: none;
+	color: #D5D8DC;
+}
+
+#latest-news a:hover{
+	color: black;
+}
